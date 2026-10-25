@@ -51,15 +51,6 @@ module, and an unguarded top-level call is a fork bomb that silently re-runs
 whole training pipelines. This has happened and cost about twenty GPU-hours.
 Every arm script and every diagnostics walker must keep its guard.
 
-**Two NCF pipelines exist and are not interchangeable.** `ncf/` is the
-reference pipeline (Amazon Beauty GI-NCF; shares data preparation with every
-SASRec script). `ncf_fast_and_nonparametric/` is a vectorised
-re-implementation that also carries the non-parametric heads (ML-1M GI-NCF,
-ItemKNN, bary_cos). Their `data_preparation_*` modules genuinely diverge —
-duplicate removal, and a different tie-break when picking the top-k users and
-items — so the two do **not** subsample a dataset to the same cells. Do not
-"deduplicate" them into one module. Reproducing a number means using the
-pipeline that produced it.
 
 **Flat imports, deliberately.** Modules import each other by bare name
 (`from data_preparation_interactions import ...`) because `repo_paths` puts
