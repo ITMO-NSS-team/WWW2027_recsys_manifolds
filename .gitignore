@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Input data - downloaded by the user, see data/README.md
+data/*
+!data/README.md
+
+# Training artefacts (logs, matrices_epoch*.npz snapshots, checkpoints)
+runs/
+
+# Run trees produced on another machine and mounted/copied in read-only
+external_runs/
+
+# Rendered figures
+figures_out/
+
+# Recomputed per-run diagnostics (hundreds of MB; regenerate with
+# analysis/compute_diagnostics_*.py)
+results/diagnostics/

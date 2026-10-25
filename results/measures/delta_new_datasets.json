@@ -1,0 +1,83 @@
+[
+  {
+    "dataset": "arts",
+    "scale": "300x800",
+    "num_users": 252,
+    "num_items": 800,
+    "delta_rel_mean": 0.30005977226470937,
+    "delta_rel_std": 0.0,
+    "c": 0.010754482109508346
+  },
+  {
+    "dataset": "arts",
+    "scale": "1000x1200",
+    "num_users": 894,
+    "num_items": 1200,
+    "delta_rel_mean": 0.27894075691177844,
+    "delta_rel_std": 0.0,
+    "c": 0.012444604588207193
+  },
+  {
+    "dataset": "arts",
+    "scale": "3000x2500",
+    "num_users": 2785,
+    "num_items": 2500,
+    "delta_rel_mean": 0.22605818502198893,
+    "delta_rel_std": 0.019571684135061874,
+    "c": 0.018948052494560615
+  },
+  {
+    "dataset": "grocery",
+    "scale": "300x800",
+    "num_users": 291,
+    "num_items": 800,
+    "delta_rel_mean": 0.3338593846341418,
+    "delta_rel_std": 0.0,
+    "c": 0.00868716109083126
+  },
+  {
+    "dataset": "grocery",
+    "scale": "1000x1200",
+    "num_users": 973,
+    "num_items": 1200,
+    "delta_rel_mean": 0.28907704381068255,
+    "delta_rel_std": 0.0,
+    "c": 0.011587182370840046
+  },
+  {
+    "dataset": "grocery",
+    "scale": "3000x2500",
+    "num_users": 2972,
+    "num_items": 2500,
+    "delta_rel_mean": 0.20864759278832082,
+    "delta_rel_std": 0.016697871893582576,
+    "c": 0.022242228344300185
+  },
+  {
+    "dataset": "office",
+    "scale": "300x800",
+    "num_users": 265,
+    "num_items": 800,
+    "delta_rel_mean": 0.3170966742817616,
+    "delta_rel_std": 0.0,
+    "c": 0.009629897792795996
+  },
+  {
+    "dataset": "office",
+    "scale": "1000x1200",
+    "num_users": 842,
+    "num_items": 1200,
+    "delta_rel_mean": 0.23488995157826772,
+    "delta_rel_std": 0.0,
+    "c": 0.017549961792999058
+  },
+  {
+    "dataset": "office",
+    "scale": "3000x2500",
+    "num_users": 2687,
+    "num_items": 2500,
+    "delta_rel_mean": 0.15601129252977444,
+    "delta_rel_std": 0.015831863464615858,
+    "c": 0.03978258342791925
+  }
+]

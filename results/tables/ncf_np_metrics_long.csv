@@ -1,0 +1,181 @@
+dataset,scale,seed,family,geometry,hr,ndcg
+Amazon Beauty,300x800,1,Popularity,—,0.0767,0.0311
+Amazon Beauty,300x800,1,NCF,Euclidean,0.1233,0.0591
+Amazon Beauty,300x800,1,NCF,Hyperbolic,0.11,0.0446
+Amazon Beauty,300x800,1,NCF,Learned (ours),0.2067,0.0954
+Amazon Beauty,300x800,1,ItemKNN,Euclidean,0.1967,0.099
+Amazon Beauty,300x800,1,ItemKNN,Hyperbolic,0.1967,0.0905
+Amazon Beauty,300x800,1,ItemKNN,Learned (ours),0.23,0.1185
+Amazon Beauty,300x800,1,Rocchio,Euclidean,0.1633,0.0839
+Amazon Beauty,300x800,1,Rocchio,Hyperbolic,0.1867,0.0932
+Amazon Beauty,300x800,1,Rocchio,Learned (ours),0.1933,0.1014
+Amazon Beauty,1000x1200,1,Popularity,—,0.1359,0.061
+Amazon Beauty,1000x1200,1,NCF,Euclidean,0.2049,0.1048
+Amazon Beauty,1000x1200,1,NCF,Hyperbolic,0.1278,0.0619
+Amazon Beauty,1000x1200,1,NCF,Learned (ours),0.2221,0.1106
+Amazon Beauty,1000x1200,1,ItemKNN,Euclidean,0.2477,0.1305
+Amazon Beauty,1000x1200,1,ItemKNN,Hyperbolic,0.2091,0.1068
+Amazon Beauty,1000x1200,1,ItemKNN,Learned (ours),0.2081,0.1018
+Amazon Beauty,1000x1200,1,Rocchio,Euclidean,0.2061,0.109
+Amazon Beauty,1000x1200,1,Rocchio,Hyperbolic,0.2061,0.1001
+Amazon Beauty,1000x1200,1,Rocchio,Learned (ours),0.2355,0.1207
+Amazon Beauty,3000x2500,1,Popularity,—,0.1887,0.0941
+Amazon Beauty,3000x2500,1,NCF,Euclidean,0.2916,0.1493
+Amazon Beauty,3000x2500,1,NCF,Hyperbolic,0.1846,0.0961
+Amazon Beauty,3000x2500,1,NCF,Learned (ours),0.312,0.1612
+Amazon Beauty,3000x2500,1,ItemKNN,Euclidean,0.3057,0.1672
+Amazon Beauty,3000x2500,1,ItemKNN,Hyperbolic,0.3063,0.1541
+Amazon Beauty,3000x2500,1,ItemKNN,Learned (ours),0.2975,0.153
+Amazon Beauty,3000x2500,1,Rocchio,Euclidean,0.3097,0.1695
+Amazon Beauty,3000x2500,1,Rocchio,Hyperbolic,0.3397,0.1727
+Amazon Beauty,3000x2500,1,Rocchio,Learned (ours),0.3438,0.1748
+Amazon Beauty,300x800,2,Popularity,—,0.0767,0.0311
+Amazon Beauty,300x800,2,NCF,Euclidean,0.16,0.0766
+Amazon Beauty,300x800,2,NCF,Hyperbolic,0.1267,0.061
+Amazon Beauty,300x800,2,NCF,Learned (ours),0.19,0.0905
+Amazon Beauty,300x800,2,ItemKNN,Euclidean,0.1967,0.099
+Amazon Beauty,300x800,2,ItemKNN,Hyperbolic,0.18,0.0925
+Amazon Beauty,300x800,2,ItemKNN,Learned (ours),0.2133,0.1037
+Amazon Beauty,300x800,2,Rocchio,Euclidean,0.1633,0.0839
+Amazon Beauty,300x800,2,Rocchio,Hyperbolic,0.2067,0.0994
+Amazon Beauty,300x800,2,Rocchio,Learned (ours),0.2133,0.1064
+Amazon Beauty,1000x1200,2,Popularity,—,0.1359,0.061
+Amazon Beauty,1000x1200,2,NCF,Euclidean,0.212,0.1023
+Amazon Beauty,1000x1200,2,NCF,Hyperbolic,0.1258,0.0621
+Amazon Beauty,1000x1200,2,NCF,Learned (ours),0.214,0.1089
+Amazon Beauty,1000x1200,2,ItemKNN,Euclidean,0.2477,0.1305
+Amazon Beauty,1000x1200,2,ItemKNN,Hyperbolic,0.2173,0.1038
+Amazon Beauty,1000x1200,2,ItemKNN,Learned (ours),0.2071,0.105
+Amazon Beauty,1000x1200,2,Rocchio,Euclidean,0.2061,0.109
+Amazon Beauty,1000x1200,2,Rocchio,Hyperbolic,0.2122,0.103
+Amazon Beauty,1000x1200,2,Rocchio,Learned (ours),0.2335,0.1212
+Amazon Beauty,3000x2500,2,Popularity,—,0.1887,0.0941
+Amazon Beauty,3000x2500,2,NCF,Euclidean,0.298,0.1521
+Amazon Beauty,3000x2500,2,NCF,Hyperbolic,0.1706,0.0857
+Amazon Beauty,3000x2500,2,NCF,Learned (ours),0.3072,0.1566
+Amazon Beauty,3000x2500,2,ItemKNN,Euclidean,0.3057,0.1672
+Amazon Beauty,3000x2500,2,ItemKNN,Hyperbolic,0.2958,0.1479
+Amazon Beauty,3000x2500,2,ItemKNN,Learned (ours),0.2988,0.1515
+Amazon Beauty,3000x2500,2,Rocchio,Euclidean,0.3097,0.1695
+Amazon Beauty,3000x2500,2,Rocchio,Hyperbolic,0.3363,0.1688
+Amazon Beauty,3000x2500,2,Rocchio,Learned (ours),0.341,0.175
+Amazon Beauty,300x800,3,Popularity,—,0.0767,0.0311
+Amazon Beauty,300x800,3,NCF,Euclidean,0.18,0.085
+Amazon Beauty,300x800,3,NCF,Hyperbolic,0.07,0.0322
+Amazon Beauty,300x800,3,NCF,Learned (ours),0.1867,0.0868
+Amazon Beauty,300x800,3,ItemKNN,Euclidean,0.1967,0.099
+Amazon Beauty,300x800,3,ItemKNN,Hyperbolic,0.1733,0.0826
+Amazon Beauty,300x800,3,ItemKNN,Learned (ours),0.2067,0.1087
+Amazon Beauty,300x800,3,Rocchio,Euclidean,0.1633,0.0839
+Amazon Beauty,300x800,3,Rocchio,Hyperbolic,0.1967,0.0967
+Amazon Beauty,300x800,3,Rocchio,Learned (ours),0.2,0.1049
+Amazon Beauty,1000x1200,3,Popularity,—,0.1359,0.061
+Amazon Beauty,1000x1200,3,NCF,Euclidean,0.212,0.0999
+Amazon Beauty,1000x1200,3,NCF,Hyperbolic,0.1268,0.0579
+Amazon Beauty,1000x1200,3,NCF,Learned (ours),0.2272,0.1151
+Amazon Beauty,1000x1200,3,ItemKNN,Euclidean,0.2477,0.1305
+Amazon Beauty,1000x1200,3,ItemKNN,Hyperbolic,0.2244,0.1057
+Amazon Beauty,1000x1200,3,ItemKNN,Learned (ours),0.2122,0.1078
+Amazon Beauty,1000x1200,3,Rocchio,Euclidean,0.2061,0.109
+Amazon Beauty,1000x1200,3,Rocchio,Hyperbolic,0.2315,0.1106
+Amazon Beauty,1000x1200,3,Rocchio,Learned (ours),0.2173,0.1191
+Amazon Beauty,3000x2500,3,Popularity,—,0.1887,0.0941
+Amazon Beauty,3000x2500,3,NCF,Euclidean,0.2973,0.1544
+Amazon Beauty,3000x2500,3,NCF,Hyperbolic,0.1618,0.0828
+Amazon Beauty,3000x2500,3,NCF,Learned (ours),0.3052,0.1561
+Amazon Beauty,3000x2500,3,ItemKNN,Euclidean,0.3057,0.1672
+Amazon Beauty,3000x2500,3,ItemKNN,Hyperbolic,0.2988,0.15
+Amazon Beauty,3000x2500,3,ItemKNN,Learned (ours),0.3019,0.1481
+Amazon Beauty,3000x2500,3,Rocchio,Euclidean,0.3097,0.1695
+Amazon Beauty,3000x2500,3,Rocchio,Hyperbolic,0.3342,0.1686
+Amazon Beauty,3000x2500,3,Rocchio,Learned (ours),0.3441,0.1758
+MovieLens 1M,300x800,1,Popularity,—,0.1633,0.087
+MovieLens 1M,300x800,1,NCF,Euclidean,0.2633,0.141
+MovieLens 1M,300x800,1,NCF,Hyperbolic,0.17,0.0888
+MovieLens 1M,300x800,1,NCF,Learned (ours),0.2967,0.1692
+MovieLens 1M,300x800,1,ItemKNN,Euclidean,0.22,0.1135
+MovieLens 1M,300x800,1,ItemKNN,Hyperbolic,0.2367,0.1149
+MovieLens 1M,300x800,1,ItemKNN,Learned (ours),0.3167,0.1618
+MovieLens 1M,300x800,1,Rocchio,Euclidean,0.16,0.0824
+MovieLens 1M,300x800,1,Rocchio,Hyperbolic,0.2733,0.1411
+MovieLens 1M,300x800,1,Rocchio,Learned (ours),0.3067,0.1731
+MovieLens 1M,1000x1200,1,Popularity,—,0.176,0.0965
+MovieLens 1M,1000x1200,1,NCF,Euclidean,0.297,0.1575
+MovieLens 1M,1000x1200,1,NCF,Hyperbolic,0.188,0.0991
+MovieLens 1M,1000x1200,1,NCF,Learned (ours),0.311,0.1584
+MovieLens 1M,1000x1200,1,ItemKNN,Euclidean,0.245,0.131
+MovieLens 1M,1000x1200,1,ItemKNN,Hyperbolic,0.218,0.1084
+MovieLens 1M,1000x1200,1,ItemKNN,Learned (ours),0.31,0.1577
+MovieLens 1M,1000x1200,1,Rocchio,Euclidean,0.195,0.1016
+MovieLens 1M,1000x1200,1,Rocchio,Hyperbolic,0.269,0.1447
+MovieLens 1M,1000x1200,1,Rocchio,Learned (ours),0.324,0.1682
+MovieLens 1M,3000x2500,1,Popularity,—,0.3107,0.1696
+MovieLens 1M,3000x2500,1,NCF,Euclidean,0.477,0.2548
+MovieLens 1M,3000x2500,1,NCF,Hyperbolic,0.3187,0.1656
+MovieLens 1M,3000x2500,1,NCF,Learned (ours),0.4673,0.2537
+MovieLens 1M,3000x2500,1,ItemKNN,Euclidean,0.466,0.2475
+MovieLens 1M,3000x2500,1,ItemKNN,Hyperbolic,0.3913,0.2057
+MovieLens 1M,3000x2500,1,ItemKNN,Learned (ours),0.4743,0.2514
+MovieLens 1M,3000x2500,1,Rocchio,Euclidean,0.355,0.1897
+MovieLens 1M,3000x2500,1,Rocchio,Hyperbolic,0.443,0.2321
+MovieLens 1M,3000x2500,1,Rocchio,Learned (ours),0.4957,0.2699
+MovieLens 1M,300x800,2,Popularity,—,0.1633,0.087
+MovieLens 1M,300x800,2,NCF,Euclidean,0.23,0.1192
+MovieLens 1M,300x800,2,NCF,Hyperbolic,0.2,0.0938
+MovieLens 1M,300x800,2,NCF,Learned (ours),0.2867,0.1604
+MovieLens 1M,300x800,2,ItemKNN,Euclidean,0.22,0.1135
+MovieLens 1M,300x800,2,ItemKNN,Hyperbolic,0.2267,0.117
+MovieLens 1M,300x800,2,ItemKNN,Learned (ours),0.3167,0.1668
+MovieLens 1M,300x800,2,Rocchio,Euclidean,0.16,0.0824
+MovieLens 1M,300x800,2,Rocchio,Hyperbolic,0.2433,0.1341
+MovieLens 1M,300x800,2,Rocchio,Learned (ours),0.3,0.1714
+MovieLens 1M,1000x1200,2,Popularity,—,0.176,0.0965
+MovieLens 1M,1000x1200,2,NCF,Euclidean,0.319,0.1646
+MovieLens 1M,1000x1200,2,NCF,Hyperbolic,0.192,0.1008
+MovieLens 1M,1000x1200,2,NCF,Learned (ours),0.306,0.1601
+MovieLens 1M,1000x1200,2,ItemKNN,Euclidean,0.245,0.131
+MovieLens 1M,1000x1200,2,ItemKNN,Hyperbolic,0.23,0.1215
+MovieLens 1M,1000x1200,2,ItemKNN,Learned (ours),0.311,0.1586
+MovieLens 1M,1000x1200,2,Rocchio,Euclidean,0.195,0.1016
+MovieLens 1M,1000x1200,2,Rocchio,Hyperbolic,0.271,0.141
+MovieLens 1M,1000x1200,2,Rocchio,Learned (ours),0.309,0.1578
+MovieLens 1M,3000x2500,2,Popularity,—,0.3107,0.1696
+MovieLens 1M,3000x2500,2,NCF,Euclidean,0.4746,0.255
+MovieLens 1M,3000x2500,2,NCF,Hyperbolic,0.323,0.1665
+MovieLens 1M,3000x2500,2,NCF,Learned (ours),0.4607,0.2481
+MovieLens 1M,3000x2500,2,ItemKNN,Euclidean,0.466,0.2475
+MovieLens 1M,3000x2500,2,ItemKNN,Hyperbolic,0.399,0.2072
+MovieLens 1M,3000x2500,2,ItemKNN,Learned (ours),0.4803,0.2592
+MovieLens 1M,3000x2500,2,Rocchio,Euclidean,0.355,0.1897
+MovieLens 1M,3000x2500,2,Rocchio,Hyperbolic,0.4373,0.2319
+MovieLens 1M,3000x2500,2,Rocchio,Learned (ours),0.4997,0.2715
+MovieLens 1M,300x800,3,Popularity,—,0.1633,0.087
+MovieLens 1M,300x800,3,NCF,Euclidean,0.2433,0.1287
+MovieLens 1M,300x800,3,NCF,Hyperbolic,0.1967,0.0932
+MovieLens 1M,300x800,3,NCF,Learned (ours),0.3067,0.1729
+MovieLens 1M,300x800,3,ItemKNN,Euclidean,0.22,0.1135
+MovieLens 1M,300x800,3,ItemKNN,Hyperbolic,0.24,0.1225
+MovieLens 1M,300x800,3,ItemKNN,Learned (ours),0.31,0.1676
+MovieLens 1M,300x800,3,Rocchio,Euclidean,0.16,0.0824
+MovieLens 1M,300x800,3,Rocchio,Hyperbolic,0.27,0.1341
+MovieLens 1M,300x800,3,Rocchio,Learned (ours),0.33,0.1805
+MovieLens 1M,1000x1200,3,Popularity,—,0.176,0.0965
+MovieLens 1M,1000x1200,3,NCF,Euclidean,0.31,0.1561
+MovieLens 1M,1000x1200,3,NCF,Hyperbolic,0.214,0.1074
+MovieLens 1M,1000x1200,3,NCF,Learned (ours),0.305,0.1574
+MovieLens 1M,1000x1200,3,ItemKNN,Euclidean,0.245,0.131
+MovieLens 1M,1000x1200,3,ItemKNN,Hyperbolic,0.222,0.1117
+MovieLens 1M,1000x1200,3,ItemKNN,Learned (ours),0.309,0.1623
+MovieLens 1M,1000x1200,3,Rocchio,Euclidean,0.195,0.1016
+MovieLens 1M,1000x1200,3,Rocchio,Hyperbolic,0.291,0.1464
+MovieLens 1M,1000x1200,3,Rocchio,Learned (ours),0.311,0.1645
+MovieLens 1M,3000x2500,3,Popularity,—,0.3107,0.1696
+MovieLens 1M,3000x2500,3,NCF,Euclidean,0.4723,0.2541
+MovieLens 1M,3000x2500,3,NCF,Hyperbolic,0.319,0.1644
+MovieLens 1M,3000x2500,3,NCF,Learned (ours),0.4663,0.2535
+MovieLens 1M,3000x2500,3,ItemKNN,Euclidean,0.466,0.2475
+MovieLens 1M,3000x2500,3,ItemKNN,Hyperbolic,0.3937,0.2017
+MovieLens 1M,3000x2500,3,ItemKNN,Learned (ours),0.484,0.2609
+MovieLens 1M,3000x2500,3,Rocchio,Euclidean,0.355,0.1897
+MovieLens 1M,3000x2500,3,Rocchio,Hyperbolic,0.4383,0.2252
+MovieLens 1M,3000x2500,3,Rocchio,Learned (ours),0.501,0.2695

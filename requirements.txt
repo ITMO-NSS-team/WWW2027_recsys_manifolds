@@ -1,0 +1,17 @@
+# Core numerics and training
+torch>=2.1
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Geometry and topology diagnostics
+networkx>=3.0          # kNN graph, Laplacian spectrum
+gudhi>=3.8             # Vietoris-Rips persistent homology (H0, H1)
+POT>=0.9               # optimal transport -> Ollivier-Ricci curvature (import name: ot)
+
+# Hyperbolic baselines (Poincare ball, HypSASRec)
+geoopt>=0.5
+
+# Figures
+matplotlib>=3.7
