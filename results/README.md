@@ -34,17 +34,19 @@ threefold across that range. Reproduce the sweep with
 
 ## tables/
 
-| file | produced by |
+| file | provenance / produced by |
 |---|---|
-| `full_hyperbolicity_table_frozenproj.csv`, `full_hyperbolicity_table_scaling.csv` | `analysis/hyperbolicity_quality_table_*.py`; read by `figures/plot_hyperbolicity_and_quality_by_scale.py` |
-| `overview_data.json` | `figures/assemble_sasrec_overview_table.py` — four SASRec arms × 5 datasets × 3 scales, seeds 0–2 |
-| `sasrec_metrics_table.csv` | the SASRec arm metrics the main results figure draws |
+| `full_hyperbolicity_table_frozenproj.csv` | the paper-config (Beauty 300×800) hyperbolicity/quality comparison table; read by `figures/plot_hyperbolicity_and_quality_by_scale.py` |
+| `full_hyperbolicity_table_scaling.csv` | `analysis/hyperbolicity_quality_table_by_scale.py`; read by `figures/plot_hyperbolicity_and_quality_by_scale.py` |
+| `overview_data.json` | `figures/assemble_sasrec_overview_table.py` (collector; writes next to the script) — four SASRec arms × 5 datasets × 3 scales, seeds 0–2; the shipped copy here is what the overview figure reads |
+| `sasrec_metrics_table.csv` | shipped SASRec arm metrics table; read by the main results figure, appendix export and arm-statistics scripts |
 | `summary_before_after.csv`, `summary_before_after.md` | `analysis/table_geometry_before_after_summary.py` |
 | `topology_before_after.csv`, `topology_tables.md` | `analysis/table_topology_before_after.py` |
 | `appendix_metrics_tables.tex` | `figures/export_appendix_metrics_tables_tex.py` |
 | `diag_np_*.csv` | the non-parametric-head diagnostics scripts |
 | `np_amazon_inventory.csv` | `analysis/inventory_nonparametric_amazon_runs.py` |
-| `ncf_np_metrics_long.csv`, `ncf_np_metrics_raw.csv` | `figures/collect_ncf_and_nonparametric_metrics.py` |
+| `ncf_np_metrics_raw.csv` | shipped raw metrics sheet used as input by the collector |
+| `ncf_np_metrics_long.csv` | `figures/collect_ncf_and_nonparametric_metrics.py` |
 | `delta_rank_sweep.json` | `figures/curvature_rank_sensitivity_sweep.py` (cache) |
 | `metrics_audit.txt` | a free-text inventory of which HR/NDCG cells exist in which run tree |
 
